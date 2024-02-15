@@ -1,10 +1,12 @@
 import React from "react";
-import Test from "components/Test";
+import Game from "components/Game";
 
 const App = () => {
   return (
     <>
-      <Test/>
+      <main>
+        <Game/>
+      </main>
     </>
   )
 }
